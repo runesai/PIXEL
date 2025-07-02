@@ -1,1 +1,1 @@
-web: gunicorn main:app 
+web: gunicorn gpt4_pixel_messenger_azure:app 
