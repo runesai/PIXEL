@@ -1,6 +1,6 @@
 # Facebook Messenger Chatbot with FAQ Database
 
-This is a Facebook Messenger chatbot that can communicate in both English and Filipino. It uses a Hugging Face language model for generating responses and Google Sheets as a FAQ database.
+This is a Facebook Messenger chatbot that can communicate in both English and Filipino. It uses a GPT 4.1 model for generating responses and Google Sheets as a FAQ database.
 
 ## Features
 
