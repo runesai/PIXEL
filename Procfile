@@ -1,1 +1,1 @@
-web: gunicorn gpt4_pixel_messenger_azure(chesca v. unstable):app 
+web: gunicorn gpt4_pixel_messenger_azure_v_c_unstable:app 
