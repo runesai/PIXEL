@@ -1272,7 +1272,7 @@ def verify():
     if request.args.get("hub.mode") == "subscribe" and request.args.get("hub.challenge"):
         if not request.args.get("hub.verify_token") == VERIFY_TOKEN:
             return "Token verification failed", 403
-        return request.args["hub.challenge"], 200
+        return str(request.args["hub.challenge"]), 200 #delete string if needed
     return "The chatbot is working!", 200
 
 @app.route('/', methods=['POST'])
