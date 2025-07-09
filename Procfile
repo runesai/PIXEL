@@ -1,1 +1,1 @@
-web: gunicorn gpt4_pixel_messenger_azure_v_c_unstable:app 
+web: gunicorn pixel_messenger:app 
